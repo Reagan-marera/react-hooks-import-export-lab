@@ -1,13 +1,14 @@
 import React from "react";
-
+import About from  "./About.js" 
+import NavBar from "./NavBar.js";
 function App() {
   return (
     <div>
-      <NavBar />
-      <Home />
-      <About />
-    </div>
-  );
+    <Home/>
+    <NavBar/>
+    <About/>
+    </div> 
+  )
 }
 
-export default App;
+export default About;
